@@ -1,12 +1,12 @@
 --------------------------------------------------------------------------------
--- Copyright © 2021+ Éamonn Anthony Duffy. All Rights Reserved.
+-- Copyright © 2021+ Eamonn Anthony Duffy. All Rights Reserved.
 --------------------------------------------------------------------------------
 --
 -- Version: V1.0.0.
 --
--- Created: Éamonn A. Duffy, 2-May-2021.
+-- Created: Eamonn A. Duffy, 2-May-2021.
 --
--- Updated: Éamonn A. Duffy, 7-May-2022.
+-- Updated: Eamonn A. Duffy, 23-December-2025.
 --
 -- Purpose: Roll Back Script for the Main Sql for the Rapture Therapy Sql Server Database.
 --
@@ -44,16 +44,16 @@ GO
 
 -- NOTE: In Future Versions *ONLY* DELETE the relevant Database Version Row and leave the Table otherwise intact.
 DROP TABLE IF EXISTS $(Schema).RaptureTherapyDatabaseVersions;
+GO
 
 --------------------------------------------------------------------------------
 -- Drop Schema if/as appropriate.
 --------------------------------------------------------------------------------
 
 DROP SCHEMA IF EXISTS $(Schema);
+GO
 
 --------------------------------------------------------------------------------
-
-GO
 
 --------------------------------------------------------------------------------
 -- End Of File.
